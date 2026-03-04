@@ -2,7 +2,7 @@
 <head>
 	<title>[under construction]</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<meta charset="utf-8">
 	<meta name="description" content="a website about zongeh and her events">
   	<meta name="keywords" content="zongeh, Berlin, DJ, edm">
@@ -19,7 +19,7 @@
 		<button class="tablink" onclick="openPage('events_home')">Events</button>
 		<button class="tablink" onclick="openPage('mag_home')">Mag</button>
 
-		<br id="break1">
+		<br>
 
 		<div id="main_home" class="tabcontent">
 			<!-- landing page --> 
@@ -27,28 +27,94 @@
 			<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things low brow and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber). 
 			<a href="https://www.soundcloud.com/zongeh">soundcloud</a>
 			<a href="https://www.instagram.com/zongeh/">instagram</a></p>
-			<p>Learn more about what zongeh does and where she will be playing by clicking through the other tabs on the site. Explore more backstory under the about tab. Enjoy. </p>
+			<p>Learn more about what zongeh does and where she will be playing by clicking through the other tabs on the site. Explore more backstory under the about tab. Enjoy.</p>
 
 
-			<h3 style="text-align:right;">Reccomendations</h3> <!-- add in links here to other subpages --> 
+			<h3 style="text-align:right;">Reccomendations</h3> 
 
-			<p style="font-size: 20px;text-align:right;"> collectives <br> <a href="https://zongeh.substack.com"> blog </a> <br> reads <br> movies</p>
+			<!-- add in links here  to other subpages --> 
+
+			<p style="font-size: 20px;text-align:right;"> 
+				<a href="parties.html" target="_blank">collectives</a>   
+				<br> 
+				<a href="https://zongeh.substack.com" target="_blank"> blog </a> 
+				<br>
+				<a href="movies.html" target="_blank">listens</a>
+				<br> 
+				<a href="reads.html" target="_blank">reads</a>
+				<br> 
+				<a href="movies.html" target="_blank">movies</a>
+			</p>
+		</div>
+
+		<div id="about_home" class="tabcontent" style="display: none;">
+			<div id="artistbio">
+				<div>
+					<img src="images/head.jpg" height="300" width=200>
+				</div>
+				<div id="artistdesc">
+					<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things low brow and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber).</p>
+				</div>
+			</div>
+
+			<br>
+
+			<center><a href="mailto:contact@zongeh.org" id="contactlink">
+			<button class="contact">contact</button>
+			</a></center>
+
+			<br>
+
+			<h3 style="text-align:right;">Highlighted Mixes</h3>
+			<p style="text-align:right;">
+				<a href="https://soundcloud.com/zongeh/rusty_angel?si=c7b4a99168794659b20dec09bf7b824f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" style="text-decoration: none; color:red;">11.13.24_2_Rusty_Angel</a>
+			</p>
+
+			<!-- Insert images of flyers with show that I've played -->
+			<h3>Previously Played Events</h3>
+			<img src="" class="CV">
+			<img src="" class="CV">
+			<img src="" class="CV">
+			<img src="" class="CV">
 
 		</div>
 
-		<div id="about_home" class="tabcontent">
+		<div id="meat_home" class="tabcontent" style="display: none;">
 			
 		</div>
 
-		<div id="meat_home" class="tabcontent">
-			
-		</div>
-
-		<div id="events_home" class="tabcontent">
+		<div id="events_home" class="tabcontent" style="display: none;">
 			<h3 >Upcoming & Recent Events</h3>
+
+<!-- Template for adding events to the page. Keep this also going in a seperate HTML file-->
+			<div class="event">
+				<div class="eventimg">
+					<img src="images/headshot_placeholder.jpg" height="400" width="250">
+				</div>
+				<div class="eventdesc">
+					<h4>Name</h4>
+					<p>
+						Date:
+						<br>
+						Location:
+						<br>
+						Time:
+						<br>
+						Description:
+						<br>
+						Price:
+					</p>
+					<p>
+						Notes 
+						<br>
+						<a href="">Link</a>
+					</p>
+				</div>
+			</div>
+
 		</div>
 
-		<div id="mag_home" class="tabcontent">
+		<div id="mag_home" class="tabcontent" style="display: none;">
 			
 		</div>
 	</div>
