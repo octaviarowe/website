@@ -6,8 +6,10 @@
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 10 px;
-  width: 8%;
+  font-size: 13;
+  width: 10%;
+  font-family: "Tahoma";
+  padding-bottom: 20px;
 } 
 
 .tablink:hover {
@@ -17,4 +19,30 @@
 .tablink:active {
   background-color: #521c20;
 }
+
+#main_home, #about_home, #events_home, #mag_home, #break1 {
+  background-image: linear-gradient(to bottom, darkred, black);
+  color:white;
+}
+
+body {
+  background-image: linear-gradient(to top, darkred, black, darkred);
+  font-family: "Verdana";
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+  background-color: black;
+}
+
+a:visited {
+  color: white;
+  background-color: black;
+  text-decoration: wavy underline;
+}
+
+
+
+
 
