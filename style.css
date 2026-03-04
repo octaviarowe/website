@@ -1,0 +1,20 @@
+ .tablink {
+  background-color: darkred;
+  color: white;
+  text-align: right;
+  float: right; 
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 10 px;
+  width: 8%;
+} 
+
+.tablink:hover {
+  background-color: red;
+}
+
+.tablink:active {
+  background-color: #521c20;
+}
+
