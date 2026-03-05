@@ -24,7 +24,7 @@
 		<div id="main_home" class="tabcontent">
 			<!-- landing page --> 
 			<h3>Welcome</h3>
-			<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things low brow and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber). 
+			<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things queer, femme, low brow, and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber). 
 			<a href="https://www.soundcloud.com/zongeh">soundcloud</a>
 			<a href="https://www.instagram.com/zongeh/">instagram</a></p>
 			<p>Learn more about what zongeh does and where she will be playing by clicking through the other tabs on the site. Explore more backstory under the about tab. Enjoy.</p>
@@ -53,7 +53,7 @@
 					<img src="images/head.jpg" height="300" width=200>
 				</div>
 				<div id="artistdesc">
-					<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things low brow and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber).</p>
+					<p>zongeh is a DJ originally from Brooklyn but now based in Berlin, Germany that is partial to all things queer, femme, low brow, and pop culture. Including dance music (specifically house, hard dance, deconstructed club, and, at times, gabber).</p>
 				</div>
 			</div>
 
@@ -65,13 +65,13 @@
 
 			<br>
 
-			<h3 style="text-align:right;">Highlighted Mixes</h3>
-			<p style="text-align:right;">
+			<h3 class="right_side">Highlighted Mix</h3>
+			<p class="right_side">
 				<a href="https://soundcloud.com/zongeh/rusty_angel?si=c7b4a99168794659b20dec09bf7b824f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" style="text-decoration: none; color:red;">11.13.24_2_Rusty_Angel</a>
 			</p>
 
 			<!-- Insert images of flyers with show that I've played -->
-			<h3>Previously Played Events</h3>
+			<h3 style="margin-left: 8px">Previously Played Events</h3>
 			<img src="" class="CV">
 			<img src="" class="CV">
 			<img src="" class="CV">
@@ -80,14 +80,29 @@
 		</div>
 
 		<div id="meat_home" class="tabcontent" style="display: none;">
+
+			<div id="meatimg">
+				<center>
+				<img src="images/banner.jpg" height="250" width="800">
+				</center>
+			</div>
+			<br>
+			<div id="meatdesc">
+				<p>[Description]</p>
+			</div>
+			<div>
+				<h3>Upcoming Nights</h3>
+				<h3 class="right_side">All DJs</h3>
+				<h3>Previous Events</h3>
+			</div>
 			
 		</div>
 
 		<div id="events_home" class="tabcontent" style="display: none;">
 			<h3 >Upcoming & Recent Events</h3>
-
-<!-- Template for adding events to the page. Keep this also going in a seperate HTML file-->
-			<div class="event">
+<!-- Template for adding events to the page. Keep this also going in a seperate HTML -->
+			<div class="event" id="event_template">
+				<!-- each event shouldl have its own id to get a relative link -->
 				<div class="eventimg">
 					<img src="images/headshot_placeholder.jpg" height="400" width="250">
 				</div>
@@ -116,6 +131,31 @@
 
 		<div id="mag_home" class="tabcontent" style="display: none;">
 			
+			<div id="mag_intro">
+				<div id="magimg">
+					<img src="images/cover_ph.png" height="400" width="250">
+				</div>
+				<div id="magdesc">
+					<h4><mark>[Top Secret Name]</mark></h4>
+					<p>
+						[Description]
+					</p>
+				</div>
+			</div>
+
+			<div id="mag_nav">
+				<h3 class="mag_nav_section">By Event</h3>
+				<h3 class="mag_nav_section">By Section</h3>
+				<!-- Add in links to subpages --> 
+				<center>
+				<button class="mag_button"><a href="" style="background-color: transparent; text-decoration: none;">1</a></button>
+				<button class="mag_button"><a href="" style="background-color: transparent; text-decoration: none;">2</a></button>
+				<button class="mag_button"><a href="" style="background-color: transparent; text-decoration: none;">3</a></button>
+				<button class="mag_button"><a href="" style="background-color: transparent; text-decoration: none;">4</a></button>
+				</center>
+
+			</div>
+
 		</div>
 	</div>
 
