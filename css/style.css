@@ -72,6 +72,7 @@ ul {
   background-color: lightgray;
   text-decoration: none;
   color: black;
+  cursor: auto;
 }
 
 .CV {
@@ -155,6 +156,12 @@ ul {
   margin-top: 15px;
   margin-left: 0px;
   align-content: center;
+}
+
+#eventframe {
+  border: 4px linear-gradient(to bottom, darkred, black);
+  height: 1000px;
+  width: 1200px;
 }
 
 
